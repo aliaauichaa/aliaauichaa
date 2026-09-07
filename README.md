@@ -8,7 +8,7 @@ I build and run my own products on AWS: three apps in production with real users
 
 | Product | What it is | Stack | Code |
 |---|---|---|---|
-| **[Quillaflow](https://www.quillaflow.com)** | Workforce management for small businesses: roles, real-time collaboration, client portal, email/SMS alerts, Android/iOS app. In daily use by a real client. | Cognito · Lambda · API Gateway · S3 · CloudFront · SES/SNS · Capacitor | [quillaflow](https://github.com/aliaauichaa/quillaflow) |
+| **[Quillaflow](https://www.quillaflow.com)** | Workforce management for small businesses: roles, real-time collaboration, client portal, email/SMS alerts, Android/iOS app. In daily use by a real client. | Cognito · Lambda · API Gateway · S3 · CloudFront · SES/SNS · Capacitor | [quillaflow](https://github.com/aliaauichaa/quillaflow) · [mobile](https://github.com/aliaauichaa/quillaflow-mobile-capacitor) |
 | **[Mi Campo con IA](https://www.micampoconia.com)** | Farm management: plots, costs, workdays, irrigation, stock, official market prices, satellite NDVI. Ready for IoT soil sensors. | Supabase / PostgreSQL (RLS) on Lightsail · 18 Lambdas (WebSockets, ETL, Cognito triggers) | [mi-campo-con-ia](https://github.com/aliaauichaa/mi-campo-con-ia) |
 | **[ShootingStats](https://shootingstats.site)** | Football statistics for dozens of leagues: PWA in ES/EN/IT with 800+ generated SEO pages, Stripe subscriptions, data pipeline on Lambda + EventBridge. | Lambda · EventBridge · DynamoDB · Stripe · S3 · CloudFront · SES | [shootingstats](https://github.com/aliaauichaa/shootingstats) |
 
