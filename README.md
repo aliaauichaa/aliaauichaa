@@ -16,12 +16,13 @@ I build and run my own products on AWS: three apps in production with real users
 
 - **Serverless first.** Lambda + API Gateway + S3/CloudFront, one region per workload, secrets only in environment variables or Secrets Manager.
 - **Ship, then measure.** Scripted deployments with cache-busting and CloudFront invalidation, CloudWatch alarms, and an eye on cost (the 1,000 free invalidations are shared by the whole account, I learned that the expensive way).
+- **Measure what ships.** Google Analytics 4 on all three products and Search Console on Mi Campo, with page titles rewritten from CTR and position data. On ShootingStats, a Lambda backend queries the GA4 Data API to show per-user usage time in the admin panel and tags Telegram links with UTM; active users up 272% in 30 days.
 - **AI as a coworker.** Every product has a Claude-powered assistant behind a Lambda proxy, and I use Claude Code daily as a development assistant.
 - **Real data or nothing.** If a value can't be verified it stays empty. No invented stats, no placeholder logos.
 
 ## Stack
 
-`AWS` (Lambda, API Gateway, S3, CloudFront, Cognito, DynamoDB, SES, SNS, EventBridge, CloudWatch, Lightsail) · `JavaScript / Node.js` · `Supabase` · `PostgreSQL` · `Stripe` · `PWA` · `Capacitor` · `Claude API` · `Power BI` · `SAP`
+`AWS` (Lambda, API Gateway, S3, CloudFront, Cognito, DynamoDB, SES, SNS, EventBridge, CloudWatch, Lightsail) · `JavaScript / Node.js` · `Supabase` · `PostgreSQL` · `Stripe` · `PWA` · `Capacitor` · `Claude API` · `GA4 Data API` · `Search Console` · `Power BI` · `SAP`
 
 ## Background
 
