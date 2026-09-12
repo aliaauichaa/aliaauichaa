@@ -28,6 +28,10 @@ I build and run my own products on AWS: three apps in production with real users
 
 Master's in Economic and Business Analysis (University of Málaga) · AWS re/Start graduate · Master's in SAP BTP, S/4HANA and AI · 5 years in operations and supply chain analysis (Grupo Sesé, Paack, Fluiconnecto) across Spain and the UK.
 
+## Resume
+
+[Download CV (English)](cv/Ali-Aauicha-CV-EN.pdf) · [Descargar CV (español)](cv/Ali-Aauicha-CV-ES.pdf)
+
 ## Contact
 
 [LinkedIn](https://www.linkedin.com/in/ali-aauicha/) · aliaauicha@gmail.com
